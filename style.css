@@ -1,0 +1,49 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background: #ff7043;
+  color: white;
+  padding: 1rem;
+}
+
+/* Recipe Grid */
+.recipe-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Recipe Card */
+.recipe-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card h2 {
+  margin: 10px 0;
+  color: #ff7043;
+}
